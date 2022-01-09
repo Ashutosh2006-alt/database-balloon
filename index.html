@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>database</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+
+    <script>
+      //this is the app database
+      var firebaseConfig = {
+        apiKey: "AIzaSyBpdD0qbbfGE7EwTJnQNO-C0YYeKYBCflY",
+        authDomain: "balloon-game-7a5fa.firebaseapp.com",
+        projectId: "balloon-game-7a5fa",
+        storageBucket: "balloon-game-7a5fa.appspot.com",
+        messagingSenderId: "1013732794785",
+        appId: "1:1013732794785:web:2695a1cc4aca5f1ca12be0",
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
