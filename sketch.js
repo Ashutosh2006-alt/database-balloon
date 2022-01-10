@@ -30,9 +30,9 @@ function setup() {
 function draw() {
   background(backgroundImg);
   imageMode(CENTER);
-  image(cloudImg, width / 2, height / 2, width, height);
-  image(mount, width / 2, height - 320, width, height / 2);
-  image(grass, width / 2, height - 40, width, height / 4);
+  image(cloudImg, width / 2, height / 2, 1980, height);
+  image(mount, width / 2, height - 320, 1980, height / 2);
+  image(grass, width / 2, height - 40, 1980, height / 4);
 
 
   if (keyDown(LEFT_ARROW)) {
